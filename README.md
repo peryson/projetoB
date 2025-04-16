@@ -29,18 +29,6 @@ Armazena informações sobre os pedidos realizados pelos clientes.
 | `quantidade`| INT       | NOT NULL                    | Quantidade do produto no pedido.               |
 | `observacoes`| TEXT      |                             | Observações adicionais do cliente para o pedido. |
 
-## Como Utilizar Este Arquivo
-
-Este arquivo `.sql` pode ser executado em qualquer sistema de gerenciamento de banco de dados (SGBD) compatível com SQL (como MySQL, PostgreSQL, SQLite, etc.).
-
-**Passos para executar o script:**
-
-1.  **Certifique-se de ter um SGBD instalado e em execução.**
-2.  **Utilize uma ferramenta de linha de comando ou uma interface gráfica do seu SGBD.**
-3.  **Conecte-se ao seu servidor de banco de dados.**
-4.  **Execute o arquivo `schema.sql`.** A forma exata de fazer isso varia dependendo da ferramenta, mas geralmente envolve um comando como `source schema.sql` (no MySQL) ou a opção de "executar script" na interface gráfica.
-
-Após a execução bem-sucedida, as tabelas `produtos` e `pedidos` serão criadas no seu banco de dados, e os registros de exemplo serão inseridos.
 
 ## Versionamento
 
